@@ -1,0 +1,15 @@
+.section-3 {
+    flex-flow: column wrap;
+}
+
+.section-3>.flex-item:first-child {
+    flex: 1 100%;
+}
+
+.section-3>.flex-item:not(:first-child):not(:last-child) {
+    flex: 1 50%;
+}
+
+.section-3>.flex-item:last-child {
+    flex: 1 100%;
+}

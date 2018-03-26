@@ -1,0 +1,15 @@
+.section-2 {
+    flex-direction: column-reverse;
+}
+
+.section-2>.flex-item:nth-child(1) {
+    align-self: flex-start;
+    width: 50%;
+    flex: 1;
+}
+
+.section-2>.flex-item:nth-child(5) {
+    align-self: flex-end;
+    width: 50%;
+    flex: 1;
+}

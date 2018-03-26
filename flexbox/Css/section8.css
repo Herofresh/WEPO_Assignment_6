@@ -1,0 +1,11 @@
+.section-8 {
+    flex-flow: column-reverse wrap;
+}
+
+.section-8>.flex-item:first-child {
+    flex: 1 100%;
+}
+
+.section-8>.flex-item:not(:first-child):nth-child(n) {
+    flex: 1;
+}

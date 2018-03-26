@@ -1,0 +1,29 @@
+.section-7 {
+    flex-flow: column wrap;
+}
+
+.section-7>.cartoon.carebear-pink {
+    flex: 1 100%;
+    order: -1;
+}
+
+.section-7>.cartoon:not(.carebear-pink) {
+    flex: 1 25%;
+    align-self: flex-end;
+}
+
+.carebear-red {
+    order: 1;
+}
+
+.carebear-green {
+    order: 2;
+}
+
+.carebear-blue {
+    order: 3;
+}
+
+.carebear-yellow {
+    order: 4;
+}
